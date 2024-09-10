@@ -5,7 +5,7 @@ int main()
 {
   char start[] = "IST";
   char end[] = {'E', 'W', 'R'}; // missing /0 causes unpredictable behavior
-  char tour[10];
+  char tour[8];
   strcpy(tour, start);
   strcat(tour, "-");
   strcat(tour, end);
